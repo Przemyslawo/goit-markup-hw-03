@@ -20,11 +20,13 @@ body {
   align-items: center;
 }
 
-.bin {
+.container {
   width: 1200px;
   margin: 0 auto;
 }
-
+.section {
+  padding: 94px 0 0;
+}
 .webstudio {
   box-sizing: border-box;
   text-decoration: none;
@@ -217,7 +219,8 @@ body {
 /*Footer--------------------*/
 
 .footer {
-  padding: 95px;
+  padding: 100px 200px 10px;
+
   background: var(--dark);
 }
 .webstudio2 {
