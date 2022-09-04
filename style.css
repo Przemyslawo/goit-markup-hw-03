@@ -105,7 +105,6 @@ body {
   text-align: center;
   padding: 200px;
 
-  height: 600px;
   height: auto;
   background: var(--dark);
 }
@@ -139,6 +138,7 @@ body {
   display: flex;
   list-style: none;
   gap: 30px;
+  padding-inline-start: 0px;
 }
 
 .h5-title {
@@ -161,7 +161,7 @@ body {
 }
 .h2-work {
   text-align: center;
-  padding: 0px;
+
   margin: 0 0 50px 0;
   font-size: 36px;
   line-height: 1.16;
@@ -173,6 +173,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-inline-start: 0px;
 }
 
 /*Our Team--------------------*/
