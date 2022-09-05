@@ -25,7 +25,7 @@ body {
   margin: 0 auto;
 }
 .section {
-  padding: 94px 0 0;
+  padding: 94px 94px;
 }
 .webstudio {
   box-sizing: border-box;
@@ -142,11 +142,9 @@ body {
 }
 
 .h5-title {
-  margin: 94px 0 10px 0;
   color: var(--black);
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  margin: 0px;
 }
 .strengths-h5 {
   font-size: 14px;
@@ -181,7 +179,7 @@ body {
 .team-background {
   background-color: var(--gray3);
 
-  padding: 200px;
+  padding: 90px 200px 90px;
 }
 .h2-team {
   text-align: center;
