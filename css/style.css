@@ -1,8 +1,8 @@
 body {
   background-color: var(--white-color);
-  display: block;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 :root {
   --blue: #2196f3;
@@ -16,8 +16,11 @@ body {
 /*Header------------------------------------*/
 .header {
   display: flex;
+  margin: 0 auto;
+  padding: 24px 0 25px 0;
+  border-bottom: 1px solid #ececec;
+  justify-content: space-between;
   gap: 93px;
-  align-items: center;
 }
 
 .container {
